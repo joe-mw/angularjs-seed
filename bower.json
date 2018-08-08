@@ -1,0 +1,24 @@
+{
+  "name": "angularjs-seed",
+  "description": "A starter project for angular js",
+  "main": "",
+  "authors": [
+    "Joseph Kihiu <Joseph.Kihiu@nicgroup.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "install": {
+    "path": "app/lib/"
+  },
+  "dependencies": {
+    "angular-ui-router": "^1.0.19"
+  }
+}
