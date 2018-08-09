@@ -46,6 +46,8 @@
   "version": "1.2.0",
   "dependencies": {
     "@uirouter/angularjs": "^1.0.19",
-    "angular": "^1.5.11"
+    "angular": "^1.5.11",
+    "gulp": "^3.9.1",
+    "semantic-ui": "^2.3.3"
   }
 }
