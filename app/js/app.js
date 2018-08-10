@@ -2,6 +2,11 @@
 (function (app) {
   'use strict';
 
+  // jquery tings - lets see if it works
+  $('#navbar_toggle').click(function (e) {
+    $('.ui.labeled.icon.sidebar').sidebar('toggle');
+  })
+
   // Routing 
   app.config(function ($stateProvider) {
 

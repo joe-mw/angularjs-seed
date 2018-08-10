@@ -7,12 +7,75 @@
   <link rel="stylesheet" href="../semantic/dist/semantic.min.css">
 </head>
 <body>
-  <ul class="menu">
-    <li><a ui-sref="partial1">partial1</a></li>
-    <li><a ui-sref="partial2">partial2</a></li>
-  </ul>
 
-  <ui-view> </ui-view>
+
+  <div class="ui top_navbar pointing menu">
+    <div class="right menu">
+      <a ui-sref-active="active" ui-sref="partial1" class="nav-link item">
+          <i class="home icon"> </i>  Home 
+      </a>
+      <a ui-sref-active="active" ui-sref="partial2" class="nav-link item">
+          <i class="envelope icon"></i> Messages
+      </a>
+    </div>
+  </div>
+
+  <div class="ui grid" id="original_items">
+
+    <!-- <div class="four column row"> -->
+    <div class="sixteen wide column row">
+
+      <span class="four wide column">
+          <div class="ui top raised segment">
+              <div class="ui attached raised label">
+                  Title
+              </div><br>
+  
+              <div class="dev-border_">
+                  <ui-view></ui-view>
+              </div>
+        </div>
+      </span>
+        
+      <span class="four wide column">
+        <div class="ui top raised segment">
+            <div class="ui attached raised label">
+                Title
+            </div><br>
+  
+            <div class="dev-border_">
+                <ui-view></ui-view>
+            </div>
+        </div>
+      </span>
+  
+      <span class="four wide column">
+        <div class="ui top raised segment">
+              <div class="ui attached raised label">
+                  Title
+              </div><br>
+  
+              <div class="dev-border_">
+                  <ui-view></ui-view>
+              </div>
+        </div>
+      </span>
+
+      <span class="four wide column">
+        <div class="ui top raised segment">
+              <div class="ui attached raised label">
+                  Title
+              </div><br>
+  
+              <div class="dev-border_">
+                  <ui-view></ui-view>
+              </div>
+        </div>
+      </span>
+      
+    </div>
+  </div>
+
   <!-- <div>Angular seed app: v<span app-version></span></div> -->
 
   <!-- In production use:
